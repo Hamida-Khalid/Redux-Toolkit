@@ -3,9 +3,12 @@ import { useDispatch } from "react-redux";
 import { decrementByAmount, incrementByAmount } from "./redux/counterSlice";
 
 
+
 function Decrement() {
     const dispatch = useDispatch();
     const [num, setNum] = useState(0);
+    const [nusm, setNsum] = useState(0);
+
     return (
         <div className="Decrement">
 

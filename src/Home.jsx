@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { decrement, increment } from "./redux/counterSlice";
 
 function Home() {
+
     const dispatch = useDispatch();
 
     return (
